@@ -4200,3 +4200,67 @@ table.insert(log, {
 	{ type = "modchange_item", oldModID = "Silencer", fulltype = "Base.AssaultRifle", registeryID = 2469, existsVanilla = true, isModded = true, modID = "Arsenal(26)GunFighter", obsolete = false, removed = false, isLoaded = false }
 	{ type = "modchange_item", oldModID = "Silencer", fulltype = "Base.Pistol", registeryID = 3845, existsVanilla = true, isModded = true, modID = "Arsenal(26)GunFighter", obsolete = false, removed = false, isLoaded = false }
 };
+log = log or {};
+table.insert(log, {
+	-- -------------------------------------------------------
+	-- Time: 2023/01/12 00:00:35
+	{
+		type = "info",
+		timeStamp = "2023/01/12 00:00:35",
+		saveWorld = "server_AKNSMDbashj",
+		worldVersion = 195,
+		hasErrored = false,
+		itemMods = {
+			"Arsenal(26)GunFighter",
+			"pz-vanilla",
+			"UndeadSuvivor",
+			"Pitstop",
+			"backpackattachments",
+			"Brita_2",
+			"tsarslib",
+			"Brita",
+			"MilPoncho",
+			"FasterReading",
+			"92amgeneralM998",
+			"SilencerUnofficialFix",
+			"CoolBag",
+			"PitstopLegacy",
+			"CAN",
+			"eggonsFannyPackBalancing",
+			"87cruiser",
+			"ATA_Bus",
+			"ATA_Jeep",
+			"autotsartrailers",
+		},
+	},
+	{ type = "reg_item", fulltype = "Autotsar.ATA_Bus_Protection_windows_front_Item", registeryID = 4085, existsVanilla = false, isModded = true, modID = "ATA_Bus", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATA_Bus_Protection_wheels_Item", registeryID = 4086, existsVanilla = false, isModded = true, modID = "ATA_Bus", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAJeepBumper3Item", registeryID = 4087, existsVanilla = false, isModded = true, modID = "ATA_Jeep", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATA_Bus_Kengur_1_Item", registeryID = 4088, existsVanilla = false, isModded = true, modID = "ATA_Bus", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.TrailerSecondTrunk", registeryID = 4089, existsVanilla = false, isModded = true, modID = "autotsartrailers", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATA_Bus_Protection_door_rear_Item", registeryID = 4090, existsVanilla = false, isModded = true, modID = "ATA_Bus", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAJeepSnorkelItem", registeryID = 4091, existsVanilla = false, isModded = true, modID = "ATA_Jeep", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.Bullbar2Blueprint", registeryID = 4092, existsVanilla = false, isModded = true, modID = "ATA_Bus", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAJeepProtectionWindowItem", registeryID = 4093, existsVanilla = false, isModded = true, modID = "ATA_Jeep", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.Bullbar3Blueprint", registeryID = 4094, existsVanilla = false, isModded = true, modID = "ATA_Bus", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.TrailerFirstTrunk", registeryID = 4095, existsVanilla = false, isModded = true, modID = "autotsartrailers", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAJeepBumper2Item", registeryID = 4096, existsVanilla = false, isModded = true, modID = "ATA_Jeep", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAJeepProtectionWindowFrontItem", registeryID = 4097, existsVanilla = false, isModded = true, modID = "ATA_Jeep", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAJeepProtectionWindowRearItem", registeryID = 4098, existsVanilla = false, isModded = true, modID = "ATA_Jeep", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.TsarEarthing", registeryID = 4099, existsVanilla = false, isModded = true, modID = "autotsartrailers", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATA_Bus_Kengur_3_Item", registeryID = 4100, existsVanilla = false, isModded = true, modID = "ATA_Bus", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAJeepBumper1Item", registeryID = 4101, existsVanilla = false, isModded = true, modID = "ATA_Jeep", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATA_Bus_Protection_windows_left_Item", registeryID = 4102, existsVanilla = false, isModded = true, modID = "ATA_Bus", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAJeepRoofBaseItem", registeryID = 4103, existsVanilla = false, isModded = true, modID = "ATA_Jeep", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.AtTuningMagBus", registeryID = 4104, existsVanilla = false, isModded = true, modID = "ATA_Bus", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATA_Bus_Roof_Box_Item", registeryID = 4105, existsVanilla = false, isModded = true, modID = "ATA_Bus", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATA_Bus_Kengur_2_Item", registeryID = 4106, existsVanilla = false, isModded = true, modID = "ATA_Bus", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATA_Bus_Roof_Rack", registeryID = 4107, existsVanilla = false, isModded = true, modID = "ATA_Bus", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAJeepRoofTentItem", registeryID = 4108, existsVanilla = false, isModded = true, modID = "ATA_Jeep", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATA_Bus_Protection_door_Item", registeryID = 4109, existsVanilla = false, isModded = true, modID = "ATA_Bus", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.AtTuningMagJeep", registeryID = 4110, existsVanilla = false, isModded = true, modID = "ATA_Jeep", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAJeepInteractiveTrunkWheelRackItem", registeryID = 4111, existsVanilla = false, isModded = true, modID = "ATA_Jeep", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAJeepBumper4Item", registeryID = 4112, existsVanilla = false, isModded = true, modID = "ATA_Jeep", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATA_Bus_Protection_windows_right_Item", registeryID = 4113, existsVanilla = false, isModded = true, modID = "ATA_Bus", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Autotsar.ATAJeepInteractiveTrunkRoofRackItem", registeryID = 4114, existsVanilla = false, isModded = true, modID = "ATA_Jeep", obsolete = false, removed = false, isLoaded = true }
+};
